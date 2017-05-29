@@ -33,11 +33,11 @@ zuul:
     user-microservice:
       path: /user-service/**
       stripPrefix: false
-      serviceId: user-microservice
+      serviceId: user-webservice
     task-microservice:
       path: /task-service/**
       stripPrefix: false
-      serviceId: task-microservice
+      serviceId: task-webservice
       
 
 spring:
